@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="splashBackground" prefHeight="800.0" prefWidth="1200.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.farmingdale.endgame_swe_project.ConnDbOps">
+    <ImageView fitHeight="128.0" fitWidth="119.0" layoutX="549.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@images/load.gif" />
+        </image>
+    </ImageView>
+</AnchorPane>
