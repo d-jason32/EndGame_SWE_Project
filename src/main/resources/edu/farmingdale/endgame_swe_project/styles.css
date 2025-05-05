@@ -37,6 +37,13 @@
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.16), 10, 0.2, 0, 4);
 }
 
+#box1 {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.16), 10, 0.2, 0, 4);
+}
+
 
 .button {
     -fx-background-color: transparent;
@@ -64,4 +71,20 @@
     -fx-border-width: 1;
     -fx-border-radius: 4;
     -fx-background-radius: 4;
+}
+
+#tv_id {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #a1ffce, #faffd1, #d4fc79);
+}
+
+#tv_fn {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #a1ffce, #faffd1, #d4fc79);
+}
+
+#tv_ln {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #a1ffce, #faffd1, #d4fc79);
+}
+
+.nested-column-header .label {
+    -fx-text-fill: #090909;
 }
