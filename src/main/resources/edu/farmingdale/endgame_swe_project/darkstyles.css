@@ -29,30 +29,8 @@
     -fx-background-color: #FFFFFF;
 }
 
-#button1 {
-    -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
-
-#button2 {
-    -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
-
-#playButton {
-    -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
 
 
-#button3 {
-    -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
 
 #loginBox {
     -fx-background-color: #FFFFFF;
@@ -62,40 +40,33 @@
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.16), 10, 0.2, 0, 4);
 }
 
-#loginButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#registerButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#backButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
 
 #themeButton {
     -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-}
+    -fx-text-fill: white;}
 
-#logoutButton {
-    -fx-background-color: #1C1C1E;
-    -fx-text-fill: white;
-}
 
 .button {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 6;
 }
 
-#borderPane {
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #e0f7ff, #007ACC);
+#themeButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 6;
 }
 
-#menuBorder {
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0D1B2A, #007ACC);
+.root {
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 100% 100%,
+            #a93226,
+            #473a3a,
+            #3a3a3a,
+            #5a1e1e,
+            #a93226
+    );
 }

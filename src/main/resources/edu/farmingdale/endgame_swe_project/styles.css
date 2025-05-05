@@ -30,24 +30,6 @@
 }
 
 
-#button1, button2, button3 {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
-
-#button2 {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
-
-#button3 {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-    -fx-padding: 8 16;
-}
-
 #loginBox {
     -fx-background-color: #FFFFFF;
     -fx-background-radius: 8;
@@ -55,38 +37,24 @@
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.16), 10, 0.2, 0, 4);
 }
 
-#loginButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#registerButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#backButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#themeButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
-
-#logoutButton {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
-}
 
 .button {
-    -fx-background-color: #007ACC;
-    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: #444444;
+    -fx-border-color: #444444;
+}
+#themeButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: #444444;
+    -fx-border-color: #444444;
+}
+
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #a1ffce, #faffd1, #d4fc79);
 }
 
 #borderPane {
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #e0f7ff, #007ACC);
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #a1ffce, #faffd1, #d4fc79);
 }
 
 .text-field {
